@@ -39,6 +39,6 @@ jobs:
       # ${{ secrets.DOCKERHUB_PWD }}
       run: docker login -u bharathpilla7 -p Bharathpilla@ 
     - name: docker push the image
-      run: docker push demyweb:v1
+      run: sudo docker push demyweb:v1
       
 
